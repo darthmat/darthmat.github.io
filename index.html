@@ -5,24 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/form.min.css"
+    />
   </head>
   <body>
     <form
+      class="ui form"
       action="https://formspree.io/mateusz.strozik@schibsted.com"
       method="POST"
     >
-      <label for="name">name:</label><br />
-      <input type="text" name="name" id="name" /><br />
-      <label for="surname">surname:</label><br />
-      <input type="text" name="surname" id="surname" /><br />
-      <label for="email">email:</label><br />
-      <input type="email" name="email" id="email" /><br />
-      <label for="phone">phone:</label><br />
-      <input type="number" name="phone" id="phone" /><br />
-      <label for="message">message:</label><br />
-      <textarea name="message" placeholder="Test Message"></textarea>
-      <br />
-      <input type="submit" value="Send" />
+      <div class="field">
+        <label for="name">first name:</label>
+        <input type="text" name="name" id="name" placeholder="first name" />
+      </div>
+      <div class="field">
+        <label for="surname">second name:</label>
+        <input
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="second name"
+        />
+      </div>
+      <div class="field">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div class="field">
+        <label for="phone">phone:</label>
+        <input type="number" name="phone" id="phone" />
+      </div>
+      <div class="field">
+        <label for="message">message:</label>
+        <textarea name="message" placeholder="Test Message"></textarea>
+      </div>
+      <input class="ui button" type="submit" value="Send" />
     </form>
   </body>
 </html>
