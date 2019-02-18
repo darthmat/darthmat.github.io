@@ -1,0 +1,23 @@
+textarea,
+label {
+  display: block;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+label[for*="male"],
+label[for="agreement"] {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+}
+
+p {
+  margin-bottom: 0;
+}
