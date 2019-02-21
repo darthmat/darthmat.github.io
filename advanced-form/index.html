@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>advanced form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form
+      action="https://formspree.io/mateusz.strozik@schibsted.com"
+      method="POST"
+      autocomplete="on"
+    >
+      <h1>A Simple Form</h1>
+      <h2>Form Fundamentals</h2>
+      <fieldset>
+        <legend>Customer Info</legend>
+        <label for="first-name"
+          >Name:
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="Enter your name"
+            autofocus
+            required
+          />
+        </label>
+        <label for="phone"
+          >Phone number:
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Pattern 1-234-567-8910"
+            pattern="\d(?:-\d{3}){2}-\d{4}"
+            required
+          />
+        </label>
+        <label for="email"
+          >E-mail adress:
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email adress"
+            required
+          />
+        </label>
+      </fieldset>
+      <fieldset class="books">
+        <legend>Books</legend>
+        <label for="book"
+          >Choose book:
+          <input type="text" name="books-list" list="books-list" id="book" />
+        </label>
+        <datalist id="books-list">
+          <option>Gra o Tron</option>
+          <option>Władca Pierścieni</option>
+          <option>Harry Potter</option>
+          <option>Lśnienie</option>
+          <option>Miasteczko Salem</option>
+        </datalist>
+        <label for="quantity"
+          >Quantity (maximum 5):
+          <input type="number" id="quantity" name="quantity" min="1" max="5" />
+        </label>
+      </fieldset>
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </body>
+</html>

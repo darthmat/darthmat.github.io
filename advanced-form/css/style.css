@@ -1,0 +1,33 @@
+h1 {
+  color: #012fc7;
+}
+
+h2 {
+  color: #8665f3;
+  font-style: italic;
+}
+
+form {
+  width: 50%;
+}
+
+label {
+  display: block;
+}
+
+input,
+label {
+  margin: 10px 0 10px 10px;
+}
+
+.books label {
+  display: inline;
+}
+
+.books input[type="number"] {
+  width: 50px;
+}
+
+button {
+  margin: 10px 0 10px 10px;
+}
