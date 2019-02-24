@@ -1,0 +1,105 @@
+@media all and (max-width: 992px) {
+  ul {
+    flex-basis: 70%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  .gallery figure {
+    flex-basis: 49%;
+  }
+
+  .technologies {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .technologies p {
+    font-size: 2rem;
+  }
+
+  .icons {
+    width: 50%;
+  }
+
+  section p {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  ul {
+    flex-basis: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  li a {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .technologies p {
+    font-size: 1.5rem;
+  }
+
+  .gallery figure {
+    flex-basis: 100%;
+  }
+
+  .icons {
+    width: 70%;
+  }
+
+  .technologies p:not(:last-child)::after {
+    margin: 0.1rem 1rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  form {
+    width: 90%;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  section p {
+    width: 90%;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 10000;
+    order: 1;
+    align-self: baseline;
+  }
+
+  nav {
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 1;
+  }
+
+  ul {
+    flex-direction: column;
+    display: none;
+    transition: all 0.2s ease-out;
+  }
+
+  input[type="checkbox"]:checked ~ ul {
+    display: flex;
+  }
+}

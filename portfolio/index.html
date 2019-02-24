@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/responsive.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>front end developer</h1>
+      <hr />
+      <div class="technologies">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+      </div>
+      <a href="#about">
+        <button type="button">dowiedz się więcej</button>
+      </a>
+    </header>
+    <nav>
+      <input id="nav-toggle" type="checkbox" class="hidden"><span class="navicon"></span></label>
+      <label class="hamburger" for="nav-toggle"></label>
+      <ul>
+        <li><a href="#about">o mnie</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">kontakt</a></li>
+      </ul>
+    </nav>
+    <section id="about" class="about">
+      <h2>o mnie</h2>
+      <hr />
+      <figure class="my-photo">
+        <img src="img/about.jpg" alt="about" />
+      </figure>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea architecto,
+        neque voluptates repellat quo, dolorem adipisci voluptate libero omnis
+        corporis consectetur dignissimos nam aut odit accusamus ipsam cum
+        voluptatem molestias quibusdam quasi recusandae! Pariatur culpa,
+        voluptas consectetur praesentium ad in. Quam harum autem pariatur non
+        laudantium consequatur eligendi officiis praesentium excepturi optio
+        dolor iure velit facere suscipit cum assumenda omnis facilis asperiores
+        rem, odio ratione! Distinctio fugit, in nihil corporis quas sapiente
+        repellat, adipisci, quo modi saepe accusantium maiores praesentium? Quis
+        asperiores consequatur pariatur temporibus necessitatibus debitis
+        facilis iure tenetur neque! Temporibus provident accusantium in eum
+        corrupti? Molestiae, saepe corrupti.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+        doloremque. Cum id amet excepturi ipsa repellendus similique deleniti,
+        culpa vero molestiae eligendi maiores tenetur. Vel nostrum nulla
+        pariatur. Expedita vitae earum recusandae, amet necessitatibus similique
+        obcaecati aspernatur excepturi magni quisquam ad iste ipsa ullam neque,
+        et possimus totam. Saepe, quia.
+      </p>
+      <a href="#portfolio">
+        <button type="button">moje portfolio</button>
+      </a>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>portfolio</h2>
+      <hr />
+      <div class="gallery">
+        <figure>
+          <img src="./img/portfolio/photo-1.jpg" alt="photo-1" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-2.jpg" alt="photo-2" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-3.jpg" alt="photo-3" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-4.jpg" alt="photo-4" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-5.jpg" alt="photo-5" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-6.jpg" alt="photo-6" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-7.jpg" alt="photo-7" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-8.jpg" alt="photo-8" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-9.jpg" alt="photo-9" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-10.jpg" alt="photo-10" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-11.jpg" alt="photo-11" />
+          <figcaption>projekt</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/portfolio/photo-12.jpg" alt="photo-12" />
+          <figcaption>projekt</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>kontakt</h2>
+      <hr />
+      <form>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder="Imię"
+          autofocus
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          autofocus
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Wiadomość"
+        ></textarea>
+        <button type="submit">wyślij wiadomość</button>
+      </form>
+      <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &copy; Akademia 108 - szkoła programowania</p>
+    </footer>
+  </body>
+</html>
