@@ -53,7 +53,7 @@ header p {
   }
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
   header {
     background: url("../img/man-1.jpg") no-repeat;
     background-size: cover;
