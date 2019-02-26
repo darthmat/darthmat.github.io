@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header,
+.aside-left,
+.aside-right,
+section,
+footer {
+  width: 100%;
+}
+
+header {
+  background-color: red;
+  order: 1;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+.aside-left {
+  background-color: green;
+  height: 10vh;
+  order: 3;
+}
+
+.aside-right {
+  background-color: pink;
+  height: 10vh;
+  order: 4;
+}
+
+section {
+  background-color: blue;
+  order: 2;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: purple;
+  order: 5;
+}
+
+@media all and (min-width: 768px) {
+  section {
+    flex-basis: 80%;
+  }
+  .aside-right {
+    order: 2;
+    flex-basis: 20%;
+    height: auto;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .aside-left {
+    order: 2;
+    flex-basis: 20%;
+    height: auto;
+  }
+
+  section {
+    order: 3;
+    flex-basis: 60%;
+  }
+
+  .aside-right {
+    order: 4;
+    flex-basis: 20%;
+  }
+}
