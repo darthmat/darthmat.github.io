@@ -1,0 +1,32 @@
+.fa-arrow-down {
+  color: #f00;
+}
+
+.fa-arrow-up {
+  color: #0f0;
+}
+
+.fa-minus {
+  color: #002fff;
+}
+
+.exchange {
+  margin-right: 10px;
+  display: inline;
+}
+
+button {
+  font-size: 16px;
+  background-color: darkcyan;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid darkcyan;
+}
+
+button:hover {
+  background-color: #fff;
+  color: darkcyan;
+}
