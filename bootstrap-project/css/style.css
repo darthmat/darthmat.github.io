@@ -126,3 +126,8 @@ iframe {
   height: 100%;
   border: none;
 }
+
+.iframe-container {
+  padding: 56.25% 0 1rem 0;
+  position: relative;
+}
