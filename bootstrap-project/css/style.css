@@ -57,6 +57,7 @@ h2,
 
 h1 {
   font-size: 2.25rem;
+  font-weight: 700;
 }
 
 .header-text p {
@@ -115,4 +116,13 @@ form {
 footer {
   padding: 10vh 0;
   background-color: #f8f8f8;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
 }
