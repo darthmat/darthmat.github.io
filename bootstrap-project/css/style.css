@@ -45,7 +45,8 @@ form .btn {
 h1,
 h2,
 .btn,
-.navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover {
   color: #fff;
 }
 
