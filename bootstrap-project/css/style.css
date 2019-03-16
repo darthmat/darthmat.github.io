@@ -1,0 +1,117 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #444;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #c2c2c2;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(194, 194, 194)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+small,
+p,
+.fa-pencil-alt,
+.navbar-nav .nav-link,
+.container .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-toggler {
+  color: #c2c2c2;
+}
+
+form small {
+  text-align: center;
+}
+
+a {
+  color: #e38f42;
+}
+
+.btn {
+  background-color: #e38f42;
+  cursor: pointer;
+}
+
+form .btn {
+  width: 100%;
+}
+
+h1,
+h2,
+.btn,
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.header-text p,
+.header-text h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+.header-text p {
+  font-size: 1.13rem;
+}
+
+header {
+  background: url("https://akademia108.pl/kurs-front-end/form-background.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.form-group--header,
+.form {
+  padding: 1rem;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.btn-transparent,
+.form-group--header {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.form-group--header small {
+  font-size: 0.94rem;
+}
+
+.fa-pencil-alt {
+  font-size: 4rem;
+}
+
+.header-row {
+  align-items: center;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-lightbulb {
+  margin-left: 5px;
+}
+
+.inspiration,
+.join-us {
+  padding: 20vh 0;
+}
+
+footer {
+  padding: 10vh 0;
+  background-color: #f8f8f8;
+}
