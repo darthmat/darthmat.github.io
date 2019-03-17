@@ -70,14 +70,19 @@ header {
   height: 100%;
 }
 
-.form-group--header,
-.form {
-  padding: 1rem;
-}
-
 form {
   background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+
+.iframe-wrapper,
+.form-wrapper {
+  padding-bottom: 2rem;
+}
+
+.form-group--header,
+.form {
+  padding: 1rem;
 }
 
 .btn-transparent,
