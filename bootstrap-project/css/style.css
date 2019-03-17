@@ -91,6 +91,11 @@ form {
 
 .fa-pencil-alt {
   font-size: 4rem;
+  padding-top: 10px;
+}
+
+.icon-container {
+  padding: 0;
 }
 
 .section-row {
